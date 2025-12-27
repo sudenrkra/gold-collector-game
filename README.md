@@ -53,7 +53,7 @@ Bu proje, **Unity oyun mekaniği**, **fizik tabanlı hareket**, **collision & tr
 
 Oyun tek ekrandan oluşmaktadır.
 
-![Gameplay](assets/gameplay.png)
+![Gameplay](Assets/gameplay.png) 
 
 ## 📁 Proje Yapısı
 
