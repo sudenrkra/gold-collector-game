@@ -1,58 +1,63 @@
-🎮 Coin Catcher Ball Game (Unity)
+# 🎮 Gold Collector Ball Game
 
-Bu proje, Unity ve C# kullanılarak geliştirilmiş basit ama oynanabilir bir 3D arcade oyunudur.
-Oyuncu bir topu kontrol ederek gelen altınları toplar, bombalardan kaçınır ve mümkün olan en yüksek skoru elde etmeye çalışır.
+ Unity ve C# kullanılarak geliştirilmiş, refleks ve dikkat odaklı basit ama eğlenceli bir arcade oyunudur.  
+Oyuncu, bir topu kontrol ederek gelen altınları toplar, bombalardan kaçınır ve mümkün olduğunca yüksek skor elde etmeye çalışır.
 
-🕹️ Oynanış
+Bu proje, **Unity oyun mekaniği**, **fizik tabanlı hareket**, **collision & trigger kullanımı** ve **oyun yönetimi sistemleri** konularındaki yetkinliği göstermek amacıyla geliştirilmiştir.
 
-Oyuncu bir top karakteri kontrol eder
+---
 
-Altınlar oyuncuya doğru gelir
+## 🕹️ Oynanış
 
-Top ile altınlara temas ederek puan kazanılır
+- Oyuncu klavye yön tuşları ile topu kontrol eder
+- Altınlar rastgele konumlardan oyuncuya doğru gelir
+- Altınları topladıkça skor artar
+- Bombalara çarpıldığında can azalır
+- Can bittiğinde oyun sona erer
 
-Bombalara temas edilirse can azalır
+---
 
-Can bittiğinde oyun sona erer
+## ✨ Özellikler
 
-✨ Özellikler
+- 🎯 **Fizik Tabanlı Top Kontrolü**  
+  Rigidbody kullanılarak gerçekçi hareket sistemi
 
-🎯 Gerçek zamanlı skor sistemi
+- 🪙 **Altın Toplama Sistemi**  
+  Trigger ile skor artırma ve ses efekti
 
-❤️ Can (Health) sistemi
+- 💣 **Bomba & Hasar Mekaniği**  
+  Can sistemi ve oyun sonu paneli
 
-💣 Bombalar ile ceza mekaniği
+- ❤️ **Can (Health) Yönetimi**  
+  UI üzerinden anlık can takibi
 
-🪙 Rastgele altın spawn sistemi
+- 🔊 **Ses Efektleri**  
+  Altın toplama ve bomba çarpma sesleri
 
-🔊 Ses efektleri (altın toplama & bomba)
+- ⏱️ **Rastgele Nesne Spawn Sistemi**  
+  Coroutine ile dinamik zorluk
 
-🛑 Game Over ekranı
+---
 
-⏱️ Zamana bağlı hareket ve fizik
+## 🛠️ Kullanılan Teknolojiler
 
-🧠 Oyun Mekanikleri
+- **Game Engine:** Unity  
+- **Programlama Dili:** C#  
+- **Physics:** Rigidbody, Collider, Trigger  
+- **UI:** Unity UI & TextMeshPro  
+- **Architecture:** Singleton Pattern (GameManager, AudioManager)
 
-Rigidbody tabanlı hareket sistemi
+---
 
-Trigger collider ile çarpışma algılama
+## 📁 Proje Yapısı
 
-Singleton pattern (GameManager, AudioManager)
-
-Coroutine kullanımı (CoinSpawner)
-
-Time.timeScale ile oyunu durdurma
-
-🛠️ Kullanılan Teknolojiler
-
-Game Engine: Unity
-
-Programlama Dili: C#
-
-Fizik Sistemi: Rigidbody & Collider
-
-UI: Unity UI & TextMeshPro
-
-Ses Yönetimi: AudioSource
-
-Tasarım Deseni: Singleton
+```text
+Assets/
+├── Scripts/
+│   ├── BallControl.cs        # Top hareketi
+│   ├── Coin.cs               # Altın toplama
+│   ├── CoinSpawner.cs        # Altın üretimi
+│   ├── Bomb.cs               # Bomba davranışı
+│   ├── HealthManager.cs      # Can sistemi
+│   ├── GameManager.cs        # Skor yönetimi
+│   └── AudioManager.cs       # Ses yönetimi
