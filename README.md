@@ -22,18 +22,7 @@ Oyunun geliştirilme sürecinde kullanılan temel araçlar:
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![UI](https://img.shields.io/badge/Unity-UI%20%26%20TMP-blue?style=for-the-badge)
 
----
 
-## 📊 Proje İstatistikleri
-Profilindeki temayla uyumlu repo verileri:
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sudenrkra&repo=Gold-Collector-Ball-Game&theme=tokyonight&show_owner=true&hide_border=false" alt="Repo Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudenrkra&theme=tokyonight&layout=compact&hide_border=false" alt="Top Langs" />
-</p>
 
 ---
 
